@@ -1,13 +1,13 @@
 # 📊 Sales Analytics Project
 
 ## 🔍 Objective
-To analyze customer and sales data to uncover business insights, identify customer segments, and forecast future sales using SQL and Python, showcasing an end-to-end data analytics workflow and business intelligence process.
+To analyze customer and sales data to uncover business insights, identify customer segments, and to showcase an end-to-end data analytics workflow and business intelligence process.
 
 ---
 
 ## 🧰 Tools & Technologies
 - **SQL (SQLite)** – Data querying, filtering, aggregation
-- **Python (Pandas, datetime, matplotlib, scikit-learn, statsmodels)** – Data cleaning, analysis, segmentation, clustering, and forecasting
+- **Python (Pandas, datetime, matplotlib, scikit-learn, statsmodels)** – Data cleaning, analysis, segmentation and clustering
 - **Matplotlib** – Data visualization
 
 ---
@@ -60,21 +60,13 @@ To analyze customer and sales data to uncover business insights, identify custom
 
 ---
 
-## 📉 Sales Forecasting with ARIMA
-
-- Aggregated monthly sales using pandas `Grouper`
-- Trained an ARIMA(5,1,0) model using `statsmodels`
-- Forecasted sales for the next 12 months and visualized the results
-
----
-
 ## 📊 Dashboard Highlights
 
 - **Customer Segment Performance** – Bar Chart of Sales by Customer Segment
 - **Monthly Sales Trends** – Time-based line chart  
 - **Top Products** – Bar chart of best sellers
 
-## 📌 Customer Segment Insights
+### 📌 Customer Segment Insights
 
 - **Consumer segment** contributes the **highest sales volume**, indicating strong individual demand and frequent purchases.
 - **Corporate segment** ranks second, typically reflecting **fewer but high-value transactions** from business clients.
@@ -84,7 +76,7 @@ To analyze customer and sales data to uncover business insights, identify custom
 
 ---
 
-## 📅 Monthly Sales Trend Insights
+### 📅 Monthly Sales Trend Insights
 
 - Sales show **sharp month-to-month fluctuations**, suggesting the influence of **seasonal patterns, promotions, or external market triggers**.
 - **September and November** consistently show **peak sales**, likely aligning with **back-to-school**, **fall campaigns**, or **pre-holiday spending**.
@@ -93,7 +85,7 @@ To analyze customer and sales data to uncover business insights, identify custom
 
 ---
 
-## 📦 Product-wise Sales Insights
+### 📦 Product-wise Sales Insights
 
 - The **top-selling product** stands out significantly with over **$60,000** in sales, compared to the next best at **$27,000**, indicating a **sales gap of over 55%**.
 - This suggests that the leading product is a **flagship item**, possibly driving most of the revenue.
